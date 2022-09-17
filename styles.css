@@ -1,0 +1,88 @@
+body {
+    font-family: monospace ,sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.menubar {
+    padding-top: 2rem;
+    background-color: aliceblue;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: block;
+}
+
+li {
+    color: lightslategray;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.intro {
+    height: 10rem;
+    padding-top: 5rem;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.summary {
+    padding: 0 1rem;
+}
+
+.summary,
+.photos,
+.reviews {
+    margin: 4em auto;
+}
+
+.summary,
+h2 {
+    color:firebrick;
+}
+
+p {
+    color:orange;
+}
+
+.photos,
+img {
+    margin: 1.5%;
+    
+
+
+}
+
+.reviews {
+    background-color:darkolivegreen;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color:crimson;
+}
+
+
+.quote {
+    margin-bottom: 2rem;
+
+}
+
+div {
+    display: block;
+}
